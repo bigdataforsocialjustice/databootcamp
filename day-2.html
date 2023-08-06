@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html><head>
+			
+		<title>Day 2</title>
+		<base href="./">
+		<meta id="root-path" root-path="./">
+
+		<link rel="icon" sizes="96x96" href="https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/favicon-96x96.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+
+			<link rel="stylesheet" href="lib/styles/obsidian-styles.css">
+			<link rel="stylesheet" href="lib/styles/theme.css">
+			<link rel="stylesheet" href="lib/styles/plugin-styles.css">
+			<link rel="stylesheet" href="lib/styles/snippets.css">
+			<style>  </style>
+
+			
+			<!-- Graph View Data -->
+			<script>
+			let nodes=
+{"nodeCount":33,"linkCount":38,"radii":[7,7,7,6.888888888888889,6.888888888888889,6.626543209876543,6.209876543209877,6.209876543209877,6.209876543209877,5.638888888888889,5.638888888888889,4.913580246913581,4.913580246913581,4.913580246913581,4.033950617283951,4.033950617283951,4.033950617283951,4.033950617283951,4.033950617283951,4.033950617283951,4.033950617283951,3,3,3,3,3,3,3,3,3,3,3,3],"labels":["Day 2","Day 1","Datasets","Day 5","Day 3","Syllabus","Mapping Homelessness in San Diego","Example 1","Day 4","San Diego Regional Data Library data example","National Survey of Child Health","In-school suspensions and academic achievement","Fatal police shootings","Add Health","Analyzing Places Data","Geographic differences in discharge dispositions","Housing and Transportation Affordability Index","Household Pulse Survey Data Tables","Final web scrap medium","Consumer Complaints","Add-on Packages & Modules","Research Reminders","Note taking","Lit Reviews","Daily Note","Example Template","Research Notes","research notes","Research Paper","Research Ideas","focus_group","Cheat Sheet","Highlighting structure"],"paths":["day-2.html","day-1.html","datasets.html","day-5.html","day-3.html","syllabus.html","mapping-homelessness-in-san-diego.html","example-1.html","day-4.html","san-diego-regional-data-library-data-example.html","national-survey-of-child-health.html","in-school-suspensions-and-academic-achievement.html","fatal-police-shootings.html","add-health.html","analyzing-places-data.html","geographic-differences-in-discharge-dispositions.html","housing-and-transportation-affordability-index.html","household-pulse-survey-data-tables.html","final-web-scrap-medium.html","consumer-complaints.html","add-on-packages-&-modules.html","00-meta/003-tools/research-reminders.html","00-meta/003-tools/note-taking.html","00-meta/003-tools/lit-reviews.html","00-meta/002-templates/daily-note.html","00-meta/002-templates/example-template.html","00-meta/002-templates/research-notes.html","00-meta/002-templates/meta/zdc-templates/research-notes.html","00-meta/002-templates/meta/zdc-templates/research-paper.html","00-meta/002-templates/meta/zdc-templates/research-ideas.html","00-meta/002-templates/meta/zdc-templates/focus_group.html","00-meta/001-structure/cheat-sheet.html","00-meta/001-structure/highlighting-structure.html"],"linkSources":[2,2,2,2,2,2,2,2,2,3,3,3,3,7,7,9,5,5,5,5,5,1,1,1,1,1,0,0,0,4,4,4,4,8,6,6,6,11],"linkTargets":[0,3,13,19,12,16,10,17,9,13,1,0,4,8,15,8,1,0,4,8,3,20,18,7,2,11,14,7,10,0,1,10,12,6,9,0,1,0]};
+			let attractionForce = 1;
+			let linkLength = 10;
+			let repulsionForce = 150;
+			let centralForce = 3;
+			let edgePruning = 100;
+			</script>
+			
+<script type="module" src="lib/scripts/graph_view.js"></script>
+
+<script src="lib/scripts/graph_wasm.js"></script>
+
+<script src="lib/scripts/tinycolor.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.2.4/pixi.min.js" integrity="sha512-Ch/O6kL8BqUwAfCF7Ie5SX1Hin+BJgYH4pNjRqXdTEqMsis1TUYg+j6nnI9uduPjGaj7DN4UKCZgpvoExt6dkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="lib/scripts/webpage.js"></script>
+
+			</head><body class="theme-dark mod-windows is-frameless is-hidden-frameless obsidian-app show-inline-title show-view-header outliner-plugin-better-lists outliner-plugin-dnd" style="--zoom-factor:1.2; --font-text-size:16px; --line-width:50em; --line-width-adaptive:50em; --file-line-width:50em; --content-width:500em; --sidebar-width:25em; --collapse-arrow-size:0.4em; --tree-horizontal-spacing:1em; --tree-vertical-spacing:0.5em; --sidebar-margin:12px;"><div class="webpage-container"><div class="sidebar-left sidebar"><div class="sidebar-content"><div><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="tree-container file-tree mod-nav-indicator" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Bootcamp</span><button class="clickable-icon collapse-tree-button is-collapsed"><iconify-icon icon="ph:arrows-in-line-horizontal-bold" width="18px" height="18px" rotate="90deg" color="currentColor"></iconify-icon></button></div><div class="tree-scroll-area"></div></div></div></div><div class="document-container"><div class="markdown-preview-view markdown-rendered node-insert-event allow-fold-headings show-indentation-guide allow-fold-lists" tabindex="-1" style="tab-size: 4;"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section" style="padding-bottom: ; padding-top: var(--file-margins); padding-right: var(--file-margins); padding-left: var(--file-margins); width: 100%; position: absolute;"><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="mod-header"><div class="inline-title" contenteditable="true" spellcheck="true" autocapitalize="on" tabindex="-1" enterkeyhint="done">Day 2</div></div><div><h1 data-heading="🔑 Summary of Key Takeaways for Day 2" id="🔑_Summary_of_Key_Takeaways_for_Day_2">🔑 Summary of Key Takeaways for Day 2</h1></div><div><h2 data-heading="🎯 Learning Objectives for Day 2" id="🎯_Learning_Objectives_for_Day_2" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>🎯 Learning Objectives for Day 2</h2></div><div><ul class="contains-task-list has-list-bullet">
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="0" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="0"><span class="tasks-list-text"><span class="task-description"><span>Learn how to clean in the most efficient way possible using existing software packages</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="1" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="1"><span class="tasks-list-text"><span class="task-description"><span>Learn how to use basic excel formulas to clean and format data quickly</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="2" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="2"><span class="tasks-list-text"><span class="task-description"><span>Learn how to recode, reshape and filter data in SPSS, jamovi and JASP</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="3" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="3"><span class="tasks-list-text"><span class="task-description"><span>Learn how to define and use new variables</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="4" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="4"><span class="tasks-list-text"><span class="task-description"><span>Learn how to merge different datasets using unique identifiers</span></span></span></li>
+</ul></div><div><h1 data-heading="📃 Summary of Notes" id="📃_Summary_of_Notes">📃 Summary of Notes</h1></div><div><h2 data-heading="Day 2 Morning: Formatting, Cleaning &amp; Reshaping Data" id="Day_2_Morning:_Formatting,_Cleaning_&amp;_Reshaping_Data" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Day 2 Morning: Formatting, Cleaning &amp; Reshaping Data</h2></div><div><h3 data-heading="Data Formats" id="Data_Formats" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Data Formats</h3></div><div><h4 data-heading="Structured Data" id="Structured_Data" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Structured Data</h4></div><div><p>This is the most common data format. It is the format we are used to in EXCEL and SPSS, for example. </p></div><div style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th>Indicator ID</th>
+<th>Snapshot Year</th>
+<th>Region of Supervision</th>
+<th>County of Residence</th>
+<th>Supervision Level</th>
+<th>Gender</th>
+<th>Age</th>
+<th>Crime</th>
+<th>Race/Ethnicity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2149980</td>
+<td>2020</td>
+<td>HUDSON VALLEY</td>
+<td>ALBANY</td>
+<td>LEVEL 4</td>
+<td>FEMALE</td>
+<td>23</td>
+<td>LEGISLATIVE VFO</td>
+<td>BLACK</td>
+</tr>
+<tr>
+<td>2149981</td>
+<td>2020</td>
+<td>HUDSON VALLEY</td>
+<td>ALBANY</td>
+<td>LEVEL 3</td>
+<td>FEMALE</td>
+<td>26</td>
+<td>LEGISLATIVE VFO</td>
+<td>BLACK</td>
+</tr>
+<tr>
+<td>2149982</td>
+<td>2020</td>
+<td>HUDSON VALLEY</td>
+<td>ALBANY</td>
+<td>LEVEL 1</td>
+<td>FEMALE</td>
+<td>27</td>
+<td>MAJOR PROPERTY</td>
+<td>WHITE</td>
+</tr>
+<tr>
+<td>2149983</td>
+<td>2020</td>
+<td>HUDSON VALLEY</td>
+<td>ALBANY</td>
+<td>LEVEL 4</td>
+<td>FEMALE</td>
+<td>27</td>
+<td>OTHER COERCIVE</td>
+<td>BLACK</td>
+</tr>
+<tr>
+<td>2149984</td>
+<td>2020</td>
+<td>HUDSON VALLEY</td>
+<td>ALBANY</td>
+<td>LEVEL 3</td>
+<td>FEMALE</td>
+<td>29</td>
+<td>MAJOR PROPERTY</td>
+<td>WHITE</td>
+</tr>
+<tr>
+<td>2149985</td>
+<td>2020</td>
+<td>HUDSON VALLEY</td>
+<td>ALBANY</td>
+<td>LEVEL 3</td>
+<td>FEMALE</td>
+<td>29</td>
+<td>MAJOR PROPERTY</td>
+<td>BLACK</td>
+</tr>
+<tr>
+<td>2149986</td>
+<td>2020</td>
+<td>HUDSON VALLEY</td>
+<td>ALBANY</td>
+<td>LEVEL 4</td>
+<td>FEMALE</td>
+<td>29</td>
+<td>LEGISLATIVE VFO</td>
+<td>BLACK</td>
+</tr>
+<tr>
+<td>2149987</td>
+<td>2020</td>
+<td>HUDSON VALLEY</td>
+<td>ALBANY</td>
+<td>LEVEL 4</td>
+<td>FEMALE</td>
+<td>30</td>
+<td>LEGISLATIVE VFO</td>
+<td>WHITE</td>
+</tr>
+</tbody>
+</table></div><div><p>The data has clearly labeled variables and values associated with each variable. The values take the form of integer, decimal or text and can have one of four types of measures:<br>
+<img src="https://www.jamovi.org/assets/variable-nominal.svg" referrerpolicy="no-referrer">&nbsp;Nominal (categorical)<br>
+<img src="https://www.jamovi.org/assets/variable-ordinal.svg" referrerpolicy="no-referrer">&nbsp;Ordinal (ranked)<br>
+<img src="https://www.jamovi.org/assets/variable-continuous.svg" referrerpolicy="no-referrer">&nbsp;Continuous (interval/ratio or scales)<br>
+<img src="https://www.jamovi.org/assets/variable-id.svg" referrerpolicy="no-referrer">&nbsp;ID (unique to jamovi, variable that is an identifier)</p></div><div><p>It is easy to change the measurement type and it is often necessary to do so. <em>Unlike SPSS,</em> neither jamovi nor JASP will allow you to incorrectly analyze the data based on the variable type. For example, you cannot places a continuous variable in a crosstab because crosstabulations are based on categorical data types.</p></div><div><p>In jamovi, to change the measurement of a variable, simply click on the icon in the icon next to the variable name.  The example below illustrates the profound difference that a change in the measurement type has for your analysis and visulazations.</p></div><div><hr></div><div><h4 data-heading="❓ Your turn" id="❓_Your_turn" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>❓ Your turn</h4></div><div><ul class="contains-task-list has-list-bullet">
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="0" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="0"><span class="tasks-list-text"><span class="task-description"><span>Open the <i>jamovi</i> file under <mark>Bootcamp/ex/Day 2/data management.omv</mark></span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="1" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="1"><span class="tasks-list-text"><span class="task-description"><span>Click on the Exploration tab and go to 'Survey Plots'</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="2" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="2"><span class="tasks-list-text"><span class="task-description"><span>Put the 'Age' variable in the 'variables' box and the 'Sex' variable in the 'Grouping Variable' box</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="3" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="3"><span class="tasks-list-text"><span class="task-description"><span>Change the measurement type for the variable 'Age' from continuous to ordinal (does that change make sense?)</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="4" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="4"><span class="tasks-list-text"><span class="task-description"><span>Your plot should look like this after playing around with the options.</span></span></span></li>
+</ul></div><div><p><span width="450" alt="Pasted image 20230802093627.png" src="Pasted image 20230802093627.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230802093627.png" width="450" src="pasted-image-20230802093627.png"></span></p></div><div><hr></div><div><h4 data-heading="Unstructured Data" id="Unstructured_Data" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Unstructured Data</h4></div><div><p>It’s relatively easy to give answers to well-specified questions using structured data sources and standard statistical analysis. When there is no structure to the data and the problem is not well-specified standard analyses don’t work. Unstructured data makes up 80-90% of all data produced by organizations (Holzinger, Stocker et al., 2013) including police reports, court documents and human service organizations. Social networking algorithms and text mining can help given meaning to narrative, unstructured text.</p></div><div><p>Consider the report death report from <a data-tooltip-position="top" aria-label="https://www.nj.gov/dcf/" rel="noopener" class="external-link" href="https://www.nj.gov/dcf/" target="_blank">New Jersey</a>). According to the Comprehensive Child Abuse and Prevention Act, the Department of Children and Families is allowed to release data on child fatalities and near fatalities. These data are located here (<a data-tooltip-position="top" aria-label="https://www.nj.gov/dcf/reporting/fatalities/#:~:text=DCF%20%7C%20Child%20Fatalities&amp;text=The%20Comprehensive%20Child%20Abuse%20Prevention,can%20be%20found%20at%20N.J.A.C." rel="noopener" class="external-link" href="https://www.nj.gov/dcf/reporting/fatalities/#:~:text=DCF%20%7C%20Child%20Fatalities&amp;text=The%20Comprehensive%20Child%20Abuse%20Prevention,can%20be%20found%20at%20N.J.A.C." target="_blank">DCF | Child Fatalities (nj.gov)</a>).<br>
+The columns we tend to focus on are date of incident, allegation type, disposition while ignoring the most important aspects of the case, included in the case disposition as well as historical information.<br>
+<span width="600" alt="Pasted image 20230802090319.png" src="Pasted image 20230802090319.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230802090319.png" width="600" src="pasted-image-20230802090319.png"></span></p></div><div><p><span width="600" alt="Pasted image 20230802090148.png" src="Pasted image 20230802090148.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230802090148.png" width="600" src="pasted-image-20230802090148.png"></span></p></div><div><h4 data-heading="Graph-based or Network Data" id="Graph-based_or_Network_Data" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Graph-based or Network Data</h4></div><div><p>A graph is a mathematical structure to model pair-wise relationships between objects. Graph or network data is useful for representing highly interconnected data. The graph structures use nodes, edges, and properties to represent and store graphical data as the next example will illustrate. The node is the entity itself, such as people in a social network. The edge represents the relationship between two entities. The properties are attributes that can come from structured or unstructured data sets. Graph-based data is a natural way to represent social networks. The structure allows you to calculate specific metrics such as the influence of a person and the shortest path between two people.</p></div><div style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Sentence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Jose</td>
+<td>Murder</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Mark</td>
+<td>Drugs</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Jerome</td>
+<td>Drugs</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Luke</td>
+<td>Murder</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Darrell</td>
+<td>Murder</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Cam</td>
+<td>Drugs</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Burns</td>
+<td>Drugs</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Lee</td>
+<td>Other</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Bob</td>
+<td>Other</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Owen</td>
+<td>Drugs</td>
+</tr>
+</tbody>
+</table></div><div style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Target</th>
+<th>Interactions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Darrell</td>
+<td>Jose</td>
+<td>17</td>
+</tr>
+<tr>
+<td>Luke</td>
+<td>Jose</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Jabba</td>
+<td>Jose</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Darrell</td>
+<td>Mark</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Han</td>
+<td>Jerome</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Darrell</td>
+<td>Luke</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Don</td>
+<td>Darrell</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Burns</td>
+<td>Cam</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Darrell</td>
+<td>Burns</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Darrell</td>
+<td>Lee</td>
+<td>16</td>
+</tr>
+</tbody>
+</table></div><div><p><span width="400" alt="Pasted image 20230802091513.png" src="Pasted image 20230802091513.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230802091513.png" width="400" src="pasted-image-20230802091513.png"></span></p></div><div style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th><strong>An Overview of Common Errors</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Errors pointing to false values within one data set</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Error Description</td>
+<td>Possible Solution</td>
+</tr>
+<tr>
+<td>Mistakes during data entry</td>
+<td>Manual overrules</td>
+</tr>
+<tr>
+<td>Redundant white space</td>
+<td>Use string functions/Excel find and replace</td>
+</tr>
+<tr>
+<td>Impossible values</td>
+<td>Manual overrules</td>
+</tr>
+<tr>
+<td>Missing values</td>
+<td>Remove observation or value</td>
+</tr>
+<tr>
+<td>Outliers</td>
+<td>Validate and, if erroneous, treat as missing value, report both with and w/out outlier</td>
+</tr>
+<tr>
+<td><strong>Errors pointing to inconsistencies between data sets</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Deviations from code book</td>
+<td>Match on keys or else use manual overrules</td>
+</tr>
+<tr>
+<td>Different units of measurement</td>
+<td>Recalculate</td>
+</tr>
+<tr>
+<td>Different levels of aggregation</td>
+<td>Bring to same level of measurement by aggregation or extrapolation</td>
+</tr>
+</tbody>
+</table></div><div><h3 data-heading="Common Errors Encountered with Publicly Available data" id="Common_Errors_Encountered_with_Publicly_Available_data" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Common Errors Encountered with Publicly Available data</h3></div><div><h4 data-heading="False Value errors" id="False_Value_errors" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>False Value errors</h4></div><div><p><span alt="Pasted image 20230802095546.png" src="Pasted image 20230802095546.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230802095546.png" src="pasted-image-20230802095546.png"></span></p></div><div><h4 data-heading="Strange Characters" id="Strange_Characters" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Strange Characters</h4></div><div><p><span alt="Pasted image 20230802095642.png" src="Pasted image 20230802095642.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230802095642.png" src="pasted-image-20230802095642.png"></span></p></div><div><h3 data-heading="Data Cleaning and Formatting in EXCEL" id="Data_Cleaning_and_Formatting_in_EXCEL" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Data Cleaning and Formatting in EXCEL</h3></div><div><p>EXCEL offers some useful ways to explore your data prior to conducting any analysis. Here are some of the most important EXCEL functions IMHO:</p></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div>Creating pivot tables: allows you to aggregate data that is not in a proper format for analysis</li>
+<li data-line="1"><div class="list-bullet"></div>Working with dates and times</li>
+<li data-line="2"><div class="list-bullet"></div>Searching and replacing data</li>
+<li data-line="3"><div class="list-bullet"></div>Creating charts including time series charts and heatmaps</li>
+<li data-line="4"><div class="list-bullet"></div>Filtering texts</li>
+</ul></div><div><p>We are going to learn how to do all of these tasks now.</p></div><div><hr></div><div><h4 data-heading="❓ Your turn: Creating Pivot Tables in Excel" id="❓_Your_turn:_Creating_Pivot_Tables_in_Excel" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>❓ Your turn: Creating Pivot Tables in Excel</h4></div><div><ul class="contains-task-list has-list-bullet">
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="0" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="0"><span class="tasks-list-text"><span class="task-description"><span>Open the Hospice Referral data <mark>Bootcamp/ex/hospice/hospice_demographics_18_21_dataset_dec_2022.xlsx</mark> we downloaded yesterday.</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="1" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="1"><span class="tasks-list-text"><span class="task-description"><span>Take a look at how it is structured</span></span></span><ul class="has-list-bullet">
+<li data-line="3"><div class="list-bullet"></div><em>Note</em>: a lot of data comes formatted in this way, and it is difficult to know what to do with it. For another example see <a data-tooltip-position="top" aria-label="https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-Census-Tract-D/cwsq-ngmh/explore/query/SELECT%0A%20%20%60year%60%2C%0A%20%20%60stateabbr%60%2C%0A%20%20%60statedesc%60%2C%0A%20%20%60countyname%60%2C%0A%20%20%60countyfips%60%2C%0A%20%20%60locationname%60%2C%0A%20%20%60datasource%60%2C%0A%20%20%60category%60%2C%0A%20%20%60measure%60%2C%0A%20%20%60data_value_unit%60%2C%0A%20%20%60data_value_type%60%2C%0A%20%20%60data_value%60%2C%0A%20%20%60data_value_footnote_symbol%60%2C%0A%20%20%60data_value_footnote%60%2C%0A%20%20%60low_confidence_limit%60%2C%0A%20%20%60high_confidence_limit%60%2C%0A%20%20%60totalpopulation%60%2C%0A%20%20%60geolocation%60%2C%0A%20%20%60locationid%60%2C%0A%20%20%60categoryid%60%2C%0A%20%20%60measureid%60%2C%0A%20%20%60datavaluetypeid%60%2C%0A%20%20%60short_question_text%60%2C%0A%20%20%60%3A%40computed_region_skr5_azej%60/page/filter" rel="noopener" class="external-link" href="https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-Census-Tract-D/cwsq-ngmh/explore/query/SELECT%0A%20%20%60year%60%2C%0A%20%20%60stateabbr%60%2C%0A%20%20%60statedesc%60%2C%0A%20%20%60countyname%60%2C%0A%20%20%60countyfips%60%2C%0A%20%20%60locationname%60%2C%0A%20%20%60datasource%60%2C%0A%20%20%60category%60%2C%0A%20%20%60measure%60%2C%0A%20%20%60data_value_unit%60%2C%0A%20%20%60data_value_type%60%2C%0A%20%20%60data_value%60%2C%0A%20%20%60data_value_footnote_symbol%60%2C%0A%20%20%60data_value_footnote%60%2C%0A%20%20%60low_confidence_limit%60%2C%0A%20%20%60high_confidence_limit%60%2C%0A%20%20%60totalpopulation%60%2C%0A%20%20%60geolocation%60%2C%0A%20%20%60locationid%60%2C%0A%20%20%60categoryid%60%2C%0A%20%20%60measureid%60%2C%0A%20%20%60datavaluetypeid%60%2C%0A%20%20%60short_question_text%60%2C%0A%20%20%60%3A%40computed_region_skr5_azej%60/page/filter" target="_blank">CDC's Places dataset</a> If you want to see my R code for connecting to and reshaping these data in real time, see <a data-href="Analyzing Places Data" href="analyzing-places-data.html" class="internal-link" target="_self" rel="noopener">Analyzing Places Data</a></li>
+</ul></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="4" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="4"><span class="tasks-list-text"><span class="task-description"><span>In the excel file, I created a series of tabs each of which has a different pivot table.  Look over each tab.</span></span></span></li>
+</ul></div><div><h4 data-heading="Pivot Tables" id="Pivot_Tables" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Pivot Tables</h4></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div>Let's learn how to create a pivot table using Excel now. Watch my steps, recreate each pivot table in the Excel spreadsheet.</li>
+<li data-line="1"><div class="list-bullet"></div>For example, the table 'Referral Type by Payee' should look like this:</li>
+</ul></div><div style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th>Payee</th>
+<th>Facility</th>
+<th>Home</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All Other</td>
+<td>894</td>
+<td>1963</td>
+<td>2857</td>
+</tr>
+<tr>
+<td>Medi-Cal</td>
+<td>5836</td>
+<td>15714</td>
+<td>21550</td>
+</tr>
+<tr>
+<td>Medicare</td>
+<td>33839</td>
+<td>125253</td>
+<td>159092</td>
+</tr>
+<tr>
+<td>Private</td>
+<td>4222</td>
+<td>15994</td>
+<td>20216</td>
+</tr>
+<tr>
+<td>Self-Pay</td>
+<td>200</td>
+<td>657</td>
+<td>857</td>
+</tr>
+<tr>
+<td>Grand Total</td>
+<td>44991</td>
+<td>159581</td>
+<td>204572</td>
+</tr>
+</tbody>
+</table></div><div><hr></div><div><h3 data-heading="Working with Dates &amp; Times in Excel" id="Working_with_Dates_&amp;_Times_in_Excel" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Working with Dates &amp; Times in Excel</h3></div><div><p>Unless you want to use a programming package, like R, the excel date/time functions are great. As you will see below, I can make multiple different variables out of one date/time column. Unfortunately, however,&nbsp;Excel understands dates as serial numbers only! This can be a real pain. Below I show you how to use the date and time functions to properly create the following columns: day of week, week number, month, day (numeric) and year. Once the data are formatted in this way, we can make nice visualizations using pivot tables including time series charts and heatmaps!</p></div><div><p>Here are the steps you need to know:<br>
+Highlight date column<br>
+Right Click and select "Format cells" and the choose "Text"<br>
+You should see the date format change to a serial format, i.e. a number<br>
+We use the serial date format to further parse the dates</p></div><div><p>In the new column type =DATEVALUE(and the column you just inserted, example =DATEVALUE(C2)</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"> <span class="token operator">=</span> Year<span class="token punctuation">(</span>Column<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token operator">=</span> Month<span class="token punctuation">(</span>Column<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token operator">=</span> Day<span class="token punctuation">(</span>Column<span class="token punctuation">)</span>
+ <span class="token operator">=</span> WEEKDAY<span class="token punctuation">(</span>Column<span class="token punctuation">)</span>
+
+Default <span class="token keyword">is</span> “<span class="token number">1</span>” which returns <span class="token keyword">from</span> Sunday through Saturday
+To <span class="token keyword">return</span> the actual day name <span class="token builtin">type</span> <span class="token operator">=</span> TEXT<span class="token punctuation">(</span>COLUMN<span class="token punctuation">,</span> <span class="token string">"dddd"</span><span class="token punctuation">)</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><h4 data-heading="❓ Your turn: Working with Dates and Times" id="❓_Your_turn:_Working_with_Dates_and_Times" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>❓ Your turn: Working with Dates and Times</h4></div><div><ul class="contains-task-list has-list-bullet">
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="0" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="0"><span class="tasks-list-text"><span class="task-description"><span>Go to <a rel="noopener" class="external-link" href="https://data.lacity.org/" target="_blank">https://data.lacity.org/</a> and locate the crime data for 2020 onward. Filter the data by clicking on the three vertical dots and filtering the area = "West LA" and the Date OCC is between March 14 - July 31 2020 (roughly Phase I of the COVID-19 pandemic). Click on the Export button and leave the default as .csv. Open the file you just downloaded in Excel and make sure that the filters worked.</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="3" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="3"><span class="tasks-list-text"><span class="task-description"><span>We are going to use the date that the crime occurred as our date field (DATE OCC)</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="4" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="4"><span class="tasks-list-text"><span class="task-description"><span>Highlight the column and right click --&gt; Format Cells --&gt; select "Text" and click "OK"</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="5" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="5"><span class="tasks-list-text"><span class="task-description"><span>Now we can use the date functions to get several additional columns from the date field such as month, year, day, day of week, week number, etc.</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="6" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="6"><span class="tasks-list-text"><span class="task-description"><span>After doing so, you should have something that looks like below:</span></span></span></li>
+</ul></div><div><hr></div><div><p><strong><em>Here is how I used these data previously</em></strong>. I created the following chart using the google mobility indices and the data from above to demonstrate the association between domestic violence during the pandemic and mobility patterns during the initial phases of COVID-19. You now have access to all of this data, and can create a similar chart using Excel!<br>
+<span alt="Pasted image 20230803110352.png" src="Pasted image 20230803110352.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803110352.png" src="pasted-image-20230803110352.png"></span></p></div><div><h2 data-heading="Day 2 Afternoon: Data Wrangling (The boring stuff that you have to know!)" id="Day_2_Afternoon:_Data_Wrangling_(The_boring_stuff_that_you_have_to_know!)" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Day 2 Afternoon: Data Wrangling (The boring stuff that you have to know!)</h2></div><div><h3 data-heading="Importing data" id="Importing_data" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Importing data</h3></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Data often come in formats other than the default format that your statistical package uses. Therefore, it is important to know how import different data formats into your package. We will learn how to import csv, xlsx, sas, stata and txt files into both SPSS and jamovi. 
+<ul class="has-list-bullet">
+<li data-line="1"><div class="list-bullet"></div>Navigate to the folder Bootcamp/ex/ImportData</li>
+</ul>
+</li>
+</ul></div><div><h3 data-heading="Computing variables" id="Computing_variables" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Computing variables</h3></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div>I am going to illustrate how to do the following<br>
+- Compute means across rows<br>
+<span alt="Pasted image 20230803083011.png" src="Pasted image 20230803083011.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803083011.png" src="pasted-image-20230803083011.png"></span></li>
+</ul></div><div><hr></div><div><h4 data-heading="❓ Your turn: Compute standard deviation across rows" id="❓_Your_turn:_Compute_standard_deviation_across_rows" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>❓ Your turn: Compute standard deviation across rows</h4></div><div><ul class="contains-task-list has-list-bullet">
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="0" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="0"><span class="tasks-list-text"><span class="task-description"><span>Use the file ComputingMeans.omv</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="1" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="1"><span class="tasks-list-text"><span class="task-description"><span>Compute the descriptive statistics for the new variable</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="2" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="2"><span class="tasks-list-text"><span class="task-description"><span>Open the file ComputingZScores.omv and notice how the Z-scores for the mean were comupted</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="3" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="3"><span class="tasks-list-text"><span class="task-description"><span>Now do this using SPSS</span></span></span></li>
+</ul></div><div><hr></div><div><h3 data-heading="Reshaping data" id="Reshaping_data" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Reshaping data</h3></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div><a data-href="Example 1" href="example-1.html" class="internal-link" target="_self" rel="noopener">Example 1</a> <a data-tooltip-position="top" aria-label="https://data.chhs.ca.gov/dataset/hospice-utilization-patient-demographics/resource/e63c97c4-80d3-4908-9374-11ec9f4fff38" rel="noopener" class="external-link" href="https://data.chhs.ca.gov/dataset/hospice-utilization-patient-demographics/resource/e63c97c4-80d3-4908-9374-11ec9f4fff38" target="_blank">Hospice Utilization - Patient Demographics - Hospice_Demographics_18-21_Dataset - California Health and Human Services Open Data Portal</a></li>
+</ul></div><div><h3 data-heading="Recoding &amp; Defining variables" id="Recoding_&amp;_Defining_variables" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Recoding &amp; Defining variables</h3></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div>To learn this, we will explore associations between TBI (traumatic brain injury) and ACEs (Adverse Childhood Experiences) using the <a data-href="National Survey of Child Health" href="national-survey-of-child-health.html" class="internal-link" target="_self" rel="noopener">National Survey of Child Health</a>. The data are downloaded already for you <mark>Bootcamp/datasets/NSCH</mark></li>
+</ul></div><div><h4 data-heading="Merging data:" id="Merging_data:" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Merging data:</h4></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Allows you to combine the information of one observation found in one table with the information that you find in another table<br>
+-&nbsp;Appending or stacking (adding rows)
+<ul class="has-list-bullet">
+<li data-line="2"><div class="list-bullet"></div>&nbsp;Joining (adding columns)</li>
+<li data-line="3"><div class="list-bullet"></div><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Examples
+<ul class="has-list-bullet">
+<li data-line="4"><div class="list-bullet"></div>One table may contain demographic data and another table may contain data on sentences</li>
+<li data-line="5"><div class="list-bullet"></div>One table may contain data on network nodes and another table may contain data on network edges</li>
+<li data-line="6"><div class="list-bullet"></div>To join tables, you use variables that represent the same object in both tables, such as a date, a country name, or a Social Security number</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></div><div><h4 data-heading="Filtering data" id="Filtering_data" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Filtering data</h4></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div>jamovi offers several advantages for filtering data. In jamovi, you can create multiple filters for the dataset. To activate the filter you simply click the activate slider next to the filter you created.<br>
+- Open the file <mark>Bootcamp/ex/WranglingData/FilteringCases.omv</mark><br>
+- To create a filter for a variable, click on "Data" and then press the <span width="10" alt="Pasted image 20230803105330.png" src="Pasted image 20230803105330.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803105330.png" width="10" src="pasted-image-20230803105330.png"></span> button to add filter or press "Filters"<br>
+- There are multiple filters set up in this file, Filter 1 selects all rows where the unique ID column is less than 10, while Filter 2 selects all cases where the mean is greater than 4<br>
+- You will notice that the filters are inactive, click the inactive button to make Filter 1 active<br>
+<span alt="Pasted image 20230803105301.png" src="Pasted image 20230803105301.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803105301.png" src="pasted-image-20230803105301.png"></span></li>
+<li data-line="6"><div class="list-bullet"></div>You will see that Filter 1 is now active and the color changed to green. Also note that all cases where ID &lt; 10 are now selected and ready to be analyzed.<br>
+<span alt="Pasted image 20230803105635.png" src="Pasted image 20230803105635.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803105635.png" src="pasted-image-20230803105635.png"></span></li>
+<li data-line="8"><div class="list-bullet"></div>Once the filter is active, all cases that have a green check mark correspond to rows that satisfy the filter condition (i.e., here ID &lt; 10). All other rows have a red X<br>
+<span alt="Pasted image 20230803105655.png" src="Pasted image 20230803105655.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803105655.png" src="pasted-image-20230803105655.png"></span></li>
+</ul></div><div><hr></div><div><h4 data-heading="❓ Your turn: Select and Create New Filters" id="❓_Your_turn:_Select_and_Create_New_Filters" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>❓ Your turn: Select and Create New Filters</h4></div><div><ul class="contains-task-list has-list-bullet">
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="0" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="0"><span class="tasks-list-text"><span class="task-description"><span>Use the file FilteringCases.omv</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="1" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="1"><span class="tasks-list-text"><span class="task-description"><span>Keep Filter 1 activated and activate Filter 2. Describe what the filter is when both filters are activated.</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="2" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="2"><span class="tasks-list-text"><span class="task-description"><span>Create a filter that selects all cases where the mean is &gt; 2.</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="3" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="3"><span class="tasks-list-text"><span class="task-description"><span>Activate Filters 1 and 2 and the filter you just created. How many cases of the dataset satisfy all three conditions?</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="4" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="4"><span class="tasks-list-text"><span class="task-description"><span>Delete the filter you created.</span></span></span></li>
+</ul></div><div><hr></div><div><h4 data-heading="Recoding data" id="Recoding_data" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Recoding data</h4></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div>jamovi makes it easy to recode data. One reason is because the software allows you to set up a coding 'schema,' save it, and apply it to multiple columns. </li>
+<li data-line="1"><div class="list-bullet"></div>Let's recode the Z-score from above into a variable that indicates whether the Z-score is 'extreme' or not. We define 'extreme' as being more than two standard deviations from the mean</li>
+<li data-line="2"><div class="list-bullet"></div>The logic then is: </li>
+</ul></div><div><pre class="language-r" tabindex="0"><code class="language-r is-loaded">	<span class="token keyword">if</span><span class="token punctuation">(</span>the Z<span class="token operator">-</span>score is greater than <span class="token number">2</span><span class="token punctuation">)</span> then it is extreme <span class="token operator">-</span><span class="token operator">-&gt;</span> <span class="token string">"Yes"</span>
+	<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>the Z<span class="token operator">-</span>score is less than <span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">)</span> then it is extreme <span class="token operator">-</span><span class="token operator">-&gt;</span> <span class="token string">"Yes"</span>
+	<span class="token keyword">else</span> it is not extreme <span class="token operator">-</span><span class="token operator">-&gt;</span> <span class="token string">"No"</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Adding observations from one table to another table</p></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div>from jamovi, click Data and then Transform --&gt; Create New Transform</li>
+</ul></div><div><hr></div><div><h4 data-heading="❓ Your turn: Recoding variables" id="❓_Your_turn:_Recoding_variables" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>❓ Your turn: Recoding variables</h4></div><div><ul class="contains-task-list has-list-bullet">
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="0" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="0"><span class="tasks-list-text"><span class="task-description"><span>Use the file TransformingScoresToCategories.omv</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="1" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="1"><span class="tasks-list-text"><span class="task-description"><span>Create a transformation that codes values of the mean that are greater than 1 using the following coding scheme if &gt; 1.8 then "Greater than 1" else "Less than or equal 1"</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="2" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="2"><span class="tasks-list-text"><span class="task-description"><span>Use the Descriptives tab to calculate the percentage of cases that have mean scores greater than 1</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="3" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="3"><span class="tasks-list-text"><span class="task-description"><span>Apply the transformation you just created to the Z-score variable</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="4" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="4"><span class="tasks-list-text"><span class="task-description"><span>Edit the transformation by changing 1.8 to 1.6. What do you notice after you apply the transformation?</span></span></span></li>
+</ul></div><div><hr></div><div><hr></div><div><h4 data-heading="❓ Your turn: Apply these methods to a real dataset" id="❓_Your_turn:_Apply_these_methods_to_a_real_dataset" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>❓ Your turn: Apply these methods to a real dataset</h4></div><div><ul class="contains-task-list has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div>We are going to use the <a data-href="National Survey of Child Health" href="national-survey-of-child-health.html" class="internal-link" target="_self" rel="noopener">National Survey of Child Health</a> Data to compute an ACEs cumulative risk score by race of child. One benefit of these data is that the data are not based on retrospective report. Another nice thing about the data is the addition of other ACEs not typically measured in previous studies. </li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="1" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="1"><span class="tasks-list-text"><span class="task-description"><span>Let's familiarize ourselves with the data and look at the codebook and variables.</span></span></span></li>
+<li data-line="2"><div class="list-bullet"></div>I subsetted the data for you and the file is called <mark>Bootcamp/ex/WranglingData/NSCH_2021_sub_wrangling_Ex</mark></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="3" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="3"><span class="tasks-list-text"><span class="task-description"><span>First transform the ACE3 variable as follows 1 = "Yes" and 2 = "No." This step is necessary because we need to sum the scores to get the cumulative risk score.</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="4" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="4"><span class="tasks-list-text"><span class="task-description"><span>Then, apply the transformation to the other ACEs 4-12</span></span></span></li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="5" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="5"><span class="tasks-list-text"><span class="task-description"><span>Finally, use the compute function to sum the newly transformed ACE3-ACE12 variables. Call the new variable ACEsSS.</span></span></span></li>
+<li data-line="6"><div class="list-bullet"></div>There were not enough cases for "Asian alone" so I coded them as missing</li>
+<li class="task-list-item plugin-tasks-list-item" data-task-priority="normal" data-task="" data-line="7" data-task-status-name="Todo" data-task-status-type="TODO"><div class="list-bullet"></div><input class="task-list-item-checkbox" type="checkbox" data-line="7"><span class="tasks-list-text"><span class="task-description"><span>Go to the Exploration tab and choose Descriptives. Make sure you choose the selections as I have them below.</span></span></span></li>
+</ul></div><div><p>You should have something that looks like this<br>
+<span alt="Pasted image 20230803133554.png" src="Pasted image 20230803133554.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803133554.png" src="pasted-image-20230803133554.png"></span></p></div><div><p>Next, under plots, choose the following selections<br>
+<span alt="Pasted image 20230803134419.png" src="Pasted image 20230803134419.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803134419.png" src="pasted-image-20230803134419.png"></span></p></div><div><p>And you should have the following images.<br>
+<span width="500" alt="Pasted image 20230803134442.png" src="Pasted image 20230803134442.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803134442.png" width="500" src="pasted-image-20230803134442.png"></span><br>
+<span width="500" alt="Pasted image 20230803133459.png" src="Pasted image 20230803133459.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20230803133459.png" width="500" src="pasted-image-20230803133459.png"></span></p></div><div><hr></div><div><h2 data-heading="📦 Additional Resources" id="📦_Additional_Resources" style="display: flex;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>📦 Additional Resources</h2></div><div><ul class="has-list-bullet">
+<li data-line="0"><div class="list-bullet"></div><a data-tooltip-position="top" aria-label="https://davidfoxcroft.github.io/lsj-book/" rel="noopener" class="external-link" href="https://davidfoxcroft.github.io/lsj-book/" target="_blank">learning statistics with jamovi</a></li>
+<li data-line="1"><div class="list-bullet"></div><a data-tooltip-position="top" aria-label="http://robjhyndman.com/hyndsight/graphics/" rel="noopener" class="external-link" href="http://robjhyndman.com/hyndsight/graphics/" target="_blank">Twenty rules for good graphics</a></li>
+<li data-line="2"><div class="list-bullet"></div><a data-tooltip-position="top" aria-label="https://medium.com/learning-data/top-5-excel-data-cleaning-skills-i-use-everyday-e6d6ae2f8549" rel="noopener" class="external-link" href="https://medium.com/learning-data/top-5-excel-data-cleaning-skills-i-use-everyday-e6d6ae2f8549" target="_blank">Top Five Data Cleaning Skills I Use Everyday</a></li>
+</ul></div><div class="mod-footer"><div class="embedded-backlinks" style="display: none;"></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-content"><span class="sidebar-section-header">Interactive Graph</span><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-arrow-up-right"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" width="512px" height="512px"></canvas>
+		</div>
+		</div><div class="tree-container outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button"><iconify-icon icon="ph:arrows-in-line-horizontal-bold" width="18px" height="18px" rotate="90deg" color="currentColor"></iconify-icon></button></div><div class="tree-scroll-area"><div class="tree-item mod-tree-heading" data-depth="1"><div class="tree-item-contents"><a class="tree-item-link" href="#🔑_Summary_of_Key_Takeaways_for_Day_2"><span class="tree-item-title">🔑 Summary of Key Takeaways for Day 2</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading" data-depth="2"><div class="tree-item-contents"><a class="tree-item-link" href="#🎯_Learning_Objectives_for_Day_2"><span class="tree-item-title">🎯 Learning Objectives for Day 2</span></a></div><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-tree-heading" data-depth="1"><div class="tree-item-contents"><a class="tree-item-link" href="#📃_Summary_of_Notes"><span class="tree-item-title">📃 Summary of Notes</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading mod-collapsible" data-depth="2"><div class="tree-item-contents"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><a class="tree-item-link" href="#Day_2_Morning:_Formatting,_Cleaning_&amp;_Reshaping_Data"><span class="tree-item-title">Day 2 Morning: Formatting, Cleaning &amp; Reshaping Data</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading mod-collapsible" data-depth="3"><div class="tree-item-contents"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><a class="tree-item-link" href="#Data_Formats"><span class="tree-item-title">Data Formats</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#Structured_Data"><span class="tree-item-title">Structured Data</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#❓_Your_turn"><span class="tree-item-title">❓ Your turn</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#Unstructured_Data"><span class="tree-item-title">Unstructured Data</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#Graph-based_or_Network_Data"><span class="tree-item-title">Graph-based or Network Data</span></a></div><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-tree-heading mod-collapsible" data-depth="3"><div class="tree-item-contents"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><a class="tree-item-link" href="#Common_Errors_Encountered_with_Publicly_Available_data"><span class="tree-item-title">Common Errors Encountered with Publicly Available data</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#False_Value_errors"><span class="tree-item-title">False Value errors</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#Strange_Characters"><span class="tree-item-title">Strange Characters</span></a></div><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-tree-heading mod-collapsible" data-depth="3"><div class="tree-item-contents"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><a class="tree-item-link" href="#Data_Cleaning_and_Formatting_in_EXCEL"><span class="tree-item-title">Data Cleaning and Formatting in EXCEL</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#❓_Your_turn:_Creating_Pivot_Tables_in_Excel"><span class="tree-item-title">❓ Your turn: Creating Pivot Tables in Excel</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#Pivot_Tables"><span class="tree-item-title">Pivot Tables</span></a></div><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-tree-heading mod-collapsible" data-depth="3"><div class="tree-item-contents"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><a class="tree-item-link" href="#Working_with_Dates_&amp;_Times_in_Excel"><span class="tree-item-title">Working with Dates &amp; Times in Excel</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#❓_Your_turn:_Working_with_Dates_and_Times"><span class="tree-item-title">❓ Your turn: Working with Dates and Times</span></a></div><div class="tree-item-children"></div></div></div></div></div></div><div class="tree-item mod-tree-heading mod-collapsible" data-depth="2"><div class="tree-item-contents"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><a class="tree-item-link" href="#Day_2_Afternoon:_Data_Wrangling_(The_boring_stuff_that_you_have_to_know!)"><span class="tree-item-title">Day 2 Afternoon: Data Wrangling (The boring stuff that you have to know!)</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading" data-depth="3"><div class="tree-item-contents"><a class="tree-item-link" href="#Importing_data"><span class="tree-item-title">Importing data</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading mod-collapsible" data-depth="3"><div class="tree-item-contents"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><a class="tree-item-link" href="#Computing_variables"><span class="tree-item-title">Computing variables</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#❓_Your_turn:_Compute_standard_deviation_across_rows"><span class="tree-item-title">❓ Your turn: Compute standard deviation across rows</span></a></div><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-tree-heading" data-depth="3"><div class="tree-item-contents"><a class="tree-item-link" href="#Reshaping_data"><span class="tree-item-title">Reshaping data</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading mod-collapsible" data-depth="3"><div class="tree-item-contents"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><a class="tree-item-link" href="#Recoding_&amp;_Defining_variables"><span class="tree-item-title">Recoding &amp; Defining variables</span></a></div><div class="tree-item-children"><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#Merging_data:"><span class="tree-item-title">Merging data:</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#Filtering_data"><span class="tree-item-title">Filtering data</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#❓_Your_turn:_Select_and_Create_New_Filters"><span class="tree-item-title">❓ Your turn: Select and Create New Filters</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#Recoding_data"><span class="tree-item-title">Recoding data</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#❓_Your_turn:_Recoding_variables"><span class="tree-item-title">❓ Your turn: Recoding variables</span></a></div><div class="tree-item-children"></div></div><div class="tree-item mod-tree-heading" data-depth="4"><div class="tree-item-contents"><a class="tree-item-link" href="#❓_Your_turn:_Apply_these_methods_to_a_real_dataset"><span class="tree-item-title">❓ Your turn: Apply these methods to a real dataset</span></a></div><div class="tree-item-children"></div></div></div></div></div></div><div class="tree-item mod-tree-heading" data-depth="2"><div class="tree-item-contents"><a class="tree-item-link" href="#📦_Additional_Resources"><span class="tree-item-title">📦 Additional Resources</span></a></div><div class="tree-item-children"></div></div></div></div></div></div></div></div></div></body></html>
